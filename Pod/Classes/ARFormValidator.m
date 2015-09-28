@@ -33,7 +33,7 @@
 
     while (aKey = [enumorator nextObject]){
         BOOL (^block)(id, NSError**) = [storedObjs objectForKey:aKey];
-        valid = block(aKey, error);
+        valid &= block(aKey, error);
 
     }
     return valid;

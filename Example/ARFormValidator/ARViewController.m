@@ -21,9 +21,9 @@
     [super viewDidLoad];
     ARFormValidator *fv = [[ARFormValidator alloc] init];
     _txview = [[UITextView alloc] init];
-    _txview.text = @"farts";
+    _txview.text = @"";
     _field = [[UITextField alloc] init];
-    _field.text = @"";
+    _field.text = @"farts";
     
     NSError *validatorError = nil;
     
