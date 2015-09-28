@@ -1,0 +1,14 @@
+PODS:
+  - ARFormValidator (0.1.0)
+
+DEPENDENCIES:
+  - ARFormValidator (from `../`)
+
+EXTERNAL SOURCES:
+  ARFormValidator:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ARFormValidator: e92dd46706999ee76839c9dd33c4ee3319688b00
+
+COCOAPODS: 0.37.0

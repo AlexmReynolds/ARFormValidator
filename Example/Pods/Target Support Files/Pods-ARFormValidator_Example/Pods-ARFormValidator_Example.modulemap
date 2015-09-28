@@ -1,0 +1,6 @@
+framework module Pods_ARFormValidator_Example {
+  umbrella header "Pods-ARFormValidator_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
