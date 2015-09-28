@@ -23,7 +23,7 @@
     _txview = [[UITextView alloc] init];
     _txview.text = @"farts";
     _field = [[UITextField alloc] init];
-    _field.text = @"too";
+    _field.text = @"";
     
     NSError *validatorError = nil;
     
@@ -49,6 +49,7 @@
             return NO;
         }
     }];
+    
     BOOL valid = [fv validate:&validatorError];
     
 	// Do any additional setup after loading the view, typically from a nib.
